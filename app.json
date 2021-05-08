@@ -1,0 +1,21 @@
+{
+    "name":"OnlineIDE",
+    "description":"Text Editor",
+    "stack":"container",
+    "repository":"https://github.com/krypton-byte/onlineIDE",
+    "keyword":[
+        "Text Editor",
+        "monaco",
+        "vscode",
+        "sublime",
+        "text",
+        "IDE",
+        "terminal",
+        "ttyd",
+        "nginx",
+        "php",
+        "OnlineEditor",
+        "online",
+        "web"
+    ]
+}

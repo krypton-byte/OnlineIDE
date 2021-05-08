@@ -1,0 +1,1 @@
+python3 termux.py 2>/dev/null
