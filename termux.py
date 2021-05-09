@@ -57,7 +57,7 @@ if not "BLACKICEcoder" in os.listdir("."):
     time.sleep(0.4)
     print(f"{colorama.Fore.LIGHTRED_EX}[{colorama.Fore.GREEN}{chr(10003)}{colorama.Fore.LIGHTRED_EX}] {colorama.Fore.LIGHTYELLOW_EX}Cloning Ttyd{colorama.Fore.RESET}               ")
 if not "ttyd" in os.listdir("."):
-    spin=loading(f"{colorama.Fore.LIGHTCYAN_EX} Cloning {colorama.Fore.LIGHTMAGENTA_EX} Ttyd {colorama.Fore.LIGHTBLUE_EX}", True)
+    spin=loading(f"{colorama.Fore.LIGHTCYAN_EX} Cloning {colorama.Fore.LIGHTMAGENTA_EX} Ttyd           {colorama.Fore.LIGHTBLUE_EX}", True)
     spin.running()
     os.system("git clone https://github.com/tsl0922/ttyd >/dev/null")
     spin.run = False
