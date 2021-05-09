@@ -10,7 +10,6 @@ from loader import loading, help
 def args(params, default):
     for i in sys.argv:
         for cordinate in re.finditer(params, i):
-            print(i[cordinate.span()[1]:])
             return i[cordinate.span()[1]:]
     else:
         return default
