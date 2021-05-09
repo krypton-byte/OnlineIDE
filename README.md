@@ -9,6 +9,13 @@
 > pip3 install colorama requests
 > bash termux.sh
 ```
+
+<p> Custom Options </p>
+
+```
+$ bash termux.sh --help
+```
+
 # Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/krypton-byte/OnlineIDE/master)
 # Screenshot Terminal
